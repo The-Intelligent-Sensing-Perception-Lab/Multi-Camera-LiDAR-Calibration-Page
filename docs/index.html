@@ -458,6 +458,53 @@
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
 
+    /* ── Contact ─────────────────────────────────────────────────────── */
+    .contact-primary {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 24px;
+      font-size: 15px;
+    }
+    .contact-primary strong { display: block; margin-bottom: 6px; color: var(--text); }
+    .contact-primary a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-primary a:hover { text-decoration: underline; }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .contact-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      font-size: 14px;
+    }
+    .contact-card .name {
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .contact-card a:hover { text-decoration: underline; }
+    .contact-address {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+    .contact-address a { color: var(--accent); text-decoration: none; }
+    .contact-address a:hover { text-decoration: underline; }
+
     /* ── Utilities ───────────────────────────────────────────────────── */
     .mt-4  { margin-top: 16px; }
     .mt-6  { margin-top: 24px; }
@@ -483,6 +530,7 @@
       <a href="#method">Method</a>
       <a href="#results">Results</a>
       <a href="#citation">Citation</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
 </nav>
@@ -910,6 +958,43 @@
       <button class="copy-btn" onclick="copyBibtex()">
         <i class="fa-regular fa-copy"></i> Copy
       </button>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contact ──────────────────────────────────────────────────────────── -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Contact</div>
+    <h2>Get in Touch</h2>
+    <p>For questions about this work, code release, or collaboration, please reach out:</p>
+
+    <div class="contact-primary mt-4">
+      <strong>Corresponding author</strong>
+      Aziz Al-Najjar &mdash;
+      <a href="mailto:azizalnajjar@cmail.carleton.ca">azizalnajjar@cmail.carleton.ca</a>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="name">Marzieh Amini</div>
+        <a href="mailto:marzieh.amini@carleton.ca">marzieh.amini@carleton.ca</a>
+      </div>
+      <div class="contact-card">
+        <div class="name">James R. Green</div>
+        <a href="mailto:jrgreen@sce.carleton.ca">jrgreen@sce.carleton.ca</a>
+      </div>
+      <div class="contact-card">
+        <div class="name">Felix Kwamena</div>
+        <a href="mailto:felix.kwamena@carleton.ca">felix.kwamena@carleton.ca</a>
+      </div>
+    </div>
+
+    <div class="contact-address">
+      <strong>Affiliation</strong><br />
+      Department of Systems and Computer Engineering<br />
+      <a href="https://carleton.ca/sce/" target="_blank">Carleton University</a><br />
+      1125 Colonel By Drive, Ottawa, Ontario K1S 5B6, Canada
     </div>
   </div>
 </section>

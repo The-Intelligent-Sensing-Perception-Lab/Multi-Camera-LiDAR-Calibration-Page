@@ -11,3 +11,14 @@ Source code for the calibration method will be released in a separate repository
 ## Authors
 
 Aziz Al-Najjar, Marzieh Amini, James R. Green, Felix Kwamena — Carleton University, Ottawa, Canada
+
+## Contact
+
+| | Email |
+|---|--------|
+| **Aziz Al-Najjar** (corresponding) | [azizknajjar@gmail.com](mailto:azizknajjar@gmail.com) |
+| Marzieh Amini | [marzieh.amini@carleton.ca](mailto:marzieh.amini@carleton.ca) |
+| James R. Green | [jrgreen@sce.carleton.ca](mailto:jrgreen@sce.carleton.ca) |
+| Felix Kwamena | [felix.kwamena@carleton.ca](mailto:felix.kwamena@carleton.ca) |
+
+Department of Systems and Computer Engineering, Carleton University, 1125 Colonel By Drive, Ottawa, ON K1S 5B6, Canada
