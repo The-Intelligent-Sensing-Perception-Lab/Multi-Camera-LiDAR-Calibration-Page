@@ -1,6 +1,6 @@
 # Joint Multi-Camera LiDAR Extrinsic Calibration — Project Website
 
-This repository hosts the **project website** for our paper:
+This repository hosts the [**project website**](https://the-intelligent-sensing-perception-lab.github.io/Multi-Camera-LiDAR-Calibration-Page/) for our paper:
 
 *Joint Multi-Camera LiDAR Extrinsic Calibration via Learned Pairwise Initialization and Geometric Refinement*
 
